@@ -22,13 +22,13 @@
             "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.12.2-14.23.5.2847",
+                    "id": "net.minecraftforge:forge:1.8.9-11.15.1.1722",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
-                        "size": 4884700,
-                        "MD5": "90734a5a713e24902d24c45c15caa42c",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/forge-1.12.2-14.23.5.2847-universal.jar"
+                        "size": 3683986,
+                        "MD5": "5cbb7db3d2b29971565fb96f9f6aadd9",
+                        "url": "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.8.9-11.15.1.1722/forge-1.8.9-11.15.1.1722-universal.jar"
                     },
                     "subModules": [
                         {
