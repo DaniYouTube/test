@@ -223,16 +223,7 @@
                         }
                         }
                     ]
-                },
-                {
-                    "id": "net.optifine:optifine:1.8.9_HD_U_L5",
-                    "name": "Optifine",
-                    "type": "ForgeMod",
-                    "artifact": {
-                        "size": 2519040,
-                        "MD5": "2332fcdb59ca0e4ee79cddf8fe114d25",
-                        "url": "https://github.com/DaniYouTube/test/blob/main/OptiFine_1.8.9_HD_U_L5.jar?raw=true"
-                    }
+                }
                 }
             ]
         },        
