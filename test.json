@@ -1,0 +1,462 @@
+{
+  "version": "1.0.0",
+  "rss": "http://files.nhsoul.fr/launchers/UniversePVP/news.xml",
+  "discord": {
+    "clientId": "725251123476299788"
+  },
+  "servers": [
+    {
+      "id": "universepvp-1.9.4",
+      "name": "1.9.4",
+      "description": "",
+      "icon": "http://files.nhsoul.fr/launchers/UniversePVP/icon.png",
+      "version": "1.0.0",
+      "address": "play.universepvp.cf:25565",
+      "minecraftVersion": "1.9.4",
+      "discord": {
+        "shortId": "UniversePVP",
+                "largeImageText": "UniversePVP",
+                "largeImageKey": "logo"
+      },
+      "mainServer": false,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.9.4-12.17.0.2051:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4062307,
+            "MD5": "e8d3b98b56d3cd0261e6a5581e1dc1a3",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/net/minecraftforge/forge/1.9.4-12.17.0.2051/forge-1.9.4-12.17.0.2051-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "jline:jline:2.13@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 248566,
+                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/jline/jline/2.13/jline-2.13.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25364,
+                "MD5": "c7d01e5a88182df7f22b7418abb51085",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206574,
+                "MD5": "daecef8fab296b764a8fb41fc07f2428",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.6@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 62477,
+                "MD5": "13560a58a79b46b82057686543e8d727",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://nhsoul.fr/launchers/Universe-PVP/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:CustomMainMenu:2.0.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 176693,
+            "MD5": "1d2f37b7013b0353b4676dc1d26cc632",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/CustomMainMenu-MC1.9.4-2.0.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:ResourceLoader:1.5.1@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 12088,
+            "MD5": "fd851602890014f31b54ad0e009e5612",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/ResourceLoader-MC1.9.4-1.5.1.jar"
+          }
+        },
+
+
+
+
+
+        {
+          "id": "generated.forgemod:optifine:1.9.4_HD_U_H5@jar",
+          "name": "OptiFine 1.9.4 HD_U_H5",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2572797,
+            "MD5": "580f08860d8319431dcc0ddb41e861c9",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/OptiFine_1.9.4_HD_U_H5.jar"
+          }
+        },
+
+
+        {
+          "id": "generated.forgemod:ArmorStatusHUD:1.31.1@jar",
+          "name": "ArmorStatusHUD",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 26716,
+            "MD5": "2766269e66836e13f9caab3a3bf11248",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/ArmorStatusHUD_mc1.9-1.10.2_v-client-1.31.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:DirectionHUD:1.26.1@jar",
+          "name": "DirectionHUD",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 23514,
+            "MD5": "2aa6b207b8346eb1c9eaff406a1a10ed",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/DirectionHUD_mc1.9-1.10.2_v-client-1.26.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:bspkrsCore:7.1.1@jar",
+          "name": "BspkrsCore",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 54367,
+            "MD5": "a1214d09a09ff69aa707910172a766af",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/bspkrsCore_mc1.9-1.10.2_v-client-7.1.1.jar"
+          }
+        },
+
+
+        {
+          "id": "generated.forgemod:com.deiramod.client:2.0.4.1@jar",
+          "name": "DeiraMod",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1112431,
+            "MD5": "5ecafb770e794e62323f72ae8bfbb469",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/DeiraMod-2.0.4.1.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:pxmod:1.0@jar",
+          "name": "PxMod",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3581795,
+            "MD5": "ff9a85377845226b15e9c54ed71784f0",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/PxMod_1.9-1.12.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:ResourcePackOrganizer:1.0.3@jar",
+          "name": "Resource Pack Organizer",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 40359,
+            "MD5": "597400a5e78b27210751dce15af37565",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/ResourcePackOrganizer++MC-1.9.4++v1.0.3.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:rpghud:3.6.8@jar",
+          "name": "RPG-Hud",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 215021,
+            "MD5": "17e5fbe7148ad493a73b708e7ca19fcb",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/[1.9.4]+RPG-HUD-3.6.9.jar"
+          }
+        },
+
+
+        {
+          "id": "generated.forgemod:emojicord:1.9.4-1.0.2.15-universal@jar",
+          "name": "Emojicord",
+          "type": "ForgeMod",
+          "required": {
+            "value": true
+          },
+          "artifact": {
+            "size": 482877,
+            "MD5": "d4fb1b0eeeec82472fef815c9a5bf95a",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/forgemods/Emojicord-1.9.4-1.0.2.15-universal.jar"
+          }
+        },
+
+
+
+
+
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 3902,
+            "MD5": "6ab85fde6a9382ac82b537d3a5b4a3c6",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/files/config/CustomMainMenu/mainmenu.json",
+            "path": "config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "mainmenu_auto.json",
+          "name": "mainmenu_auto.json",
+          "type": "File",
+          "artifact": {
+            "size": 3755,
+            "MD5": "ea364a66a1772f62cf13c3ea9d3d1f91",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/files/config/CustomMainMenu/mainmenu_auto.json",
+            "path": "config/CustomMainMenu/mainmenu_auto.json"
+          }
+        },
+        {
+          "id": "mainmenu_large.json",
+          "name": "mainmenu_large.json",
+          "type": "File",
+          "artifact": {
+            "size": 3755,
+            "MD5": "d3dc06658004f1433e89199ba55560f8",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/files/config/CustomMainMenu/mainmenu_large.json",
+            "path": "config/CustomMainMenu/mainmenu_large.json"
+          }
+        },
+        {
+          "id": "bg.png",
+          "name": "bg.png",
+          "type": "File",
+          "artifact": {
+            "size": 947649,
+            "MD5": "2b2128c072be2ba9eea4ae57ae98a03e",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/files/resources/mainmenu/textures/bg.png",
+            "path": "resources/mainmenu/textures/bg.png"
+          }
+        },
+        {
+          "id": "bg_menu.png",
+          "name": "bg_menu.png",
+          "type": "File",
+          "artifact": {
+            "size": 6327,
+            "MD5": "f9e2ba50d757b56478561d5b10622125",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/files/resources/mainmenu/textures/bg_menu.png",
+            "path": "resources/mainmenu/textures/bg_menu.png"
+          }
+        },
+        {
+          "id": "btn.png",
+          "name": "btn.png",
+          "type": "File",
+          "artifact": {
+            "size": 2958,
+            "MD5": "93679909e4e3c6ba9875174da24916fd",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/files/resources/mainmenu/textures/btn.png",
+            "path": "resources/mainmenu/textures/btn.png"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 66,
+            "MD5": "947d76d01f6bf3decff36e6eb88b64d0",
+            "url": "https://nhsoul.fr/launchers/Universe-PVP/files/servers.dat",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    }
+  ]
+}
