@@ -470,6 +470,18 @@
                     }
                 
                 
+                },
+                {
+                    "id": "net.labymod:labymod:3.7.4",
+                    "name": "LabyMod",
+                    "type": "ForgeMod",
+                    "artifact": {
+                        "size": 2598821,
+                        "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
+                        "url": "https://github.com/DaniYouTube/test/raw/main/LabyMod-3_1.12.2.jar"
+                    }
+                
+                
                 }
             ]
         }
