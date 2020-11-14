@@ -248,7 +248,7 @@
         {
             "id": "Vanilla-1.12.2",
             "name": "Minecraft 1.12.2",
-            "description": "Play Minecraft Vanilla 1.12.2 only with optifine!",
+            "description": "Play Minecraft Vanilla 1.12.2 only with optifine",
             "icon": "https://m.ftbwiki.org/images/7/76/Block_Light_Blue_Concrete_Powder.png",
             "version": "4.6.4",
             "address": "mc.westeroscraft.com:4445",
