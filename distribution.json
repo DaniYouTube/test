@@ -242,17 +242,6 @@
                     }
                 
                 
-                },
-                {
-                    "id": "com.xdani:offwhite:1.8.9",
-                    "name": "Off White Resource Pack",
-                    "type": "File",
-                    "artifact": {
-                        "size": 53240128,
-                        "MD5": "d26483bfc73b71af57499f4ac8932e7c",
-                        "path": "resourcepacks/OffWhite.zip",
-                        "url": "https://cdn-104.anonfiles.com/x7A3Nbpepd/75d1f041-1605389342/OffWhite.zip"
-                    }
                 }
             ]
             
