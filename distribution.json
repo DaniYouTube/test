@@ -32,13 +32,13 @@
                     },
                     "subModules": [
                         {
-                            "id": "net.minecraft:launchwrapper:1.12",
+                            "id": "net.minecraft:launchwrapper:1.7",
                             "name": "Mojang (LaunchWrapper)",
                             "type": "Library",
                             "artifact": {
                                 "size": 32999,
                                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
+                                "url": "https://github.com/DaniYouTube/test/blob/main/launchwrapper-1.7.jar?raw=true"
                             }
                         },
                         {
