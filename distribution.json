@@ -36,8 +36,8 @@
                             "name": "Mojang (LaunchWrapper)",
                             "type": "Library",
                             "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "size": 28672,
+                                "MD5": "a21eb738379baa951432de984bafbc7a",
                                 "url": "https://github.com/DaniYouTube/test/blob/main/launchwrapper-1.7.jar?raw=true"
                             }
                         },
@@ -220,27 +220,18 @@
                                 "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
                                 "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/maven-artifact-3.5.3.jar"
                             }
-                        },
-                        {
-                            "id": "net.minecraftforge:MercuriusUpdater:1.12.2",
-                            "name": "MercuriusUpdater",
-                            "type": "Library",
-                            "artifact": {
-                                "size": 15098,
-                                "MD5": "6eb9e61097bee3103a2fdc42746b76a4",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/MercuriusUpdater-1.12.2.jar"
-                            }
+                        }
                         }
                     ]
                 },
                 {
-                    "id": "net.optifine:optifine:1.12.2_HD_U_F5",
+                    "id": "net.optifine:optifine:1.8.9_HD_U_L5",
                     "name": "Optifine",
                     "type": "ForgeMod",
                     "artifact": {
-                        "size": 2598821,
-                        "MD5": "043ac1db6f7441ea4cf31bcb621aff0b",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.12.2/mods/OptiFine.jar"
+                        "size": 2519040,
+                        "MD5": "2332fcdb59ca0e4ee79cddf8fe114d25",
+                        "url": "https://github.com/DaniYouTube/test/blob/main/OptiFine_1.8.9_HD_U_L5.jar?raw=true"
                     }
                 }
             ]
