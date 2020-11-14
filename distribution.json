@@ -32,13 +32,13 @@
                     },
                     "subModules": [
                         {
-                            "id": "net.minecraft:launchwrapper:1.7",
+                            "id": "net.minecraft:launchwrapper:1.8",
                             "name": "Mojang (LaunchWrapper)",
                             "type": "Library",
                             "artifact": {
-                                "size": 28672,
-                                "MD5": "a21eb738379baa951432de984bafbc7a",
-                                "url": "https://github.com/DaniYouTube/test/raw/main/launchwrapper-1.7.jar"
+                                "size": 32768,
+                                "MD5": "460ffeedae268dc70c8210ce179fa44a",
+                                "url": "https://github.com/diegonetto/moonquest/raw/master/libraries/net/minecraft/launchwrapper/1.8/launchwrapper-1.8.jar"
                             }
                         },
                         {
