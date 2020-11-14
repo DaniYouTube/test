@@ -32,13 +32,14 @@
                     },
                     "subModules": [
                         {
-                            "id": "net.minecraft:launchwrapper:1.8",
+                            
+                            "id": "net.minecraft:launchwrapper:1.12",
                             "name": "Mojang (LaunchWrapper)",
                             "type": "Library",
                             "artifact": {
-                                "size": 32768,
-                                "MD5": "460ffeedae268dc70c8210ce179fa44a",
-                                "url": "https://github.com/diegonetto/moonquest/raw/master/libraries/net/minecraft/launchwrapper/1.8/launchwrapper-1.8.jar"
+                                "size": 32999,
+                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.12.2/launchwrapper-1.12.jar"
                             }
                         },
                         {
